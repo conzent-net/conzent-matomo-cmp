@@ -1,0 +1,20 @@
+{
+    "name": "ConzentCmp",
+    "description": "Conzent CMP tag for Matomo Tag Manager \u2014 adds consent management with a single Website Key.",
+    "version": "1.0.0",
+    "theme": false,
+    "keywords": ["TagManager", "consent", "CMP", "GDPR", "cookie"],
+    "homepage": "https://getconzent.com",
+    "authors": [
+        {
+            "name": "Conzent",
+            "email": "support@getconzent.com",
+            "homepage": "https://getconzent.com"
+        }
+    ],
+    "require": {
+        "matomo": ">=4.0.0,<6.99.99",
+        "TagManager": ">=4.0.0"
+    },
+    "license": "GPL-3.0-or-later"
+}

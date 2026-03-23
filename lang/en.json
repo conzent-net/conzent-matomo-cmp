@@ -1,0 +1,11 @@
+{
+    "ConzentCmp": {
+        "ConzentCmpName": "Conzent CMP",
+        "ConzentCmpDescription": "Cookie Consent Management Platform from Conzent - GDPR, CCPA & ePrivacy compliant",
+        "ConzentCmpHelp": "",
+        "WebsiteKeyTitle": "Website Key",
+        "WebsiteKeyDescription": "Your Conzent Website Key. Find it in the Conzent dashboard under Sites.",
+        "ServerUrlTitle": "Server URL",
+        "ServerUrlDescription": "The Conzent server URL. Only change this if you are self-hosting Conzent OCI."
+    }
+}
