@@ -1,37 +1,21 @@
-# Conzent CMP for Matomo Tag Manager
+# Conzent CMP
 
-Adds **Conzent CMP** as a native tag type in Matomo Tag Manager. Manage cookie consent on your website with a simple Website Key configuration — no custom HTML required.
+## Description
 
-## Features
+Adds **Conzent CMP** as a native tag type in Matomo Tag Manager. Manage cookie consent on your website with a simple Website Key — no custom HTML required.
 
+Conzent is a Google CMP Certified consent management platform that supports GDPR, CCPA, ePrivacy, and IAB TCF v2.2.
+
+### Features
+
+- Native Matomo Tag Manager integration — select "Conzent CMP" from the tag list
+- Configure with just a Website Key
 - GDPR, CCPA & ePrivacy compliant cookie consent banner
 - Google Consent Mode v2 support
 - IAB TCF v2.2 support
-- Configurable via Website Key (no code needed)
-- Works with self-hosted Conzent OCI installations
+- Works with self-hosted Conzent OCI installations (configurable Server URL)
 
-## Requirements
-
-- Matomo 4.0 or later
-- Tag Manager plugin activated (included by default since Matomo 3.7)
-
-## Installation
-
-### Via Matomo Marketplace
-
-1. Go to **Administration > Platform > Marketplace**
-2. Search for "Conzent CMP"
-3. Click **Install**
-4. Activate the plugin
-
-### Manual Installation
-
-1. Download or clone this repository
-2. Copy the `ConzentCmp` folder to your Matomo `plugins/` directory
-3. Go to **Administration > Platform > Plugins**
-4. Find "Conzent CMP" and click **Activate**
-
-## Usage
+### How to use
 
 1. Go to **Tag Manager** in Matomo
 2. Select your container
@@ -43,14 +27,15 @@ Adds **Conzent CMP** as a native tag type in Matomo Tag Manager. Manage cookie c
 
 ### Self-hosted Conzent OCI
 
-If you are running a self-hosted Conzent OCI instance, change the **Server URL** field to your Conzent installation URL.
+If you are running a self-hosted Conzent OCI instance, change the **Server URL** field to your installation URL.
 
-## Support
+### Requirements
 
-- Documentation: [https://getconzent.com/docs](https://getconzent.com/docs)
+- Matomo 4.0 or later
+- Tag Manager plugin activated (included by default since Matomo 3.7)
+
+### Support
+
 - Website: [https://getconzent.com](https://getconzent.com)
+- Documentation: [https://getconzent.com/docs](https://getconzent.com/docs)
 - Issues: [https://github.com/conzent-net/conzent-matomo-cmp/issues](https://github.com/conzent-net/conzent-matomo-cmp/issues)
-
-## License
-
-GPL-3.0-or-later
